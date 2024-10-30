@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Vježba</title>
+</head>
+<body>
+    
+    <h1>JavaScript Vježba</h1>
+    
+    <button id="button_A">+</button>
+    <button id="button_B">-</button>
+    <h3 id="heading_A"></h3>
+
+    <script>
+
+
+        const buttonA = document.querySelector("#button_A");
+        const buttonA = document.querySelector("#button_B");
+        const headingA = document.querySelector("#heading_A");
+let count = 0;
+buttonA.onclick = () =>{
+    headingA.textContent = `Broj klikova: ${count}`;
+    count += 1;
+};
+
+    buttonB.onclick = () =>{
+    headingA.textContent = `Broj klikova: ${count-2}`;
+    count += 1;
+};
+
+
+    </script>
+
+</body>
+</html>
