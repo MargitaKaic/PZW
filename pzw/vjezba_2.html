@@ -7,21 +7,41 @@
 </head>
 <body>
     
-    <h1>JavaScript Vježba</h1>
+    <h1>JavaScript Document Object Model</h1>
     
-    <button id="button_A">KLIKNI ME</button>
-    <h3 id="heading_A"></h3>
+    <form action="">
 
-    <script>
-        const buttonA = document.querySelector("#button_A");
-const headingA = document.querySelector("#heading_A");
-let count = 1;
-buttonA.onclick = () =>{
-    headingA.textContent = `Broj klikova: ${count} `;
-    count += 20;
-};
+        <div>
+        <label for="">Ime:</label>
+        <input type="text">
+    </div>
 
-    </script>
+    
+    <div>
+        <label for="">Prezime:</label>
+        <input type="text">
+    </div>
 
+    <div>
+        <label for="">Razred:</label>
+        <input id="razred" type="text">
+    </div>
+
+
+    <div>
+        <label for="">Škola:</label>
+        <input id="skola" type="text">
+    </div>
+
+    <div>
+        <label for="">Grad:</label>
+        <input id="grad" type="text">
+    </div>
+
+        <input type="button" value="Provjeri" onclick="provjeri();"/>
+
+    </form>
+
+<script src="skripta_3.js"></script>
 </body>
 </html>
