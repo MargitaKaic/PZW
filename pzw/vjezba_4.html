@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+</head>
+<body>
+    
+    <h1>JavaScript DOM</h1>
+
+    <h2 id="n1">Naslov 1</h2> 
+
+    <h2 id="n2">Naslov 2</h2>
+
+    <h2 id="n3">Naslov 3</h2>
+
+
+   
+    <img id="like" src="heart.png" alt="srce" style="width: 100px;">
+
+    <button onclick="document.getElementById('like').src='heart2.png'">like</button>
+
+    <button onclick="document.getElementById('like').src='heart.png'">unlike</button>
+
+
+<script>
+        document.getElementById("n1").style.color = "red";
+        document.getElementById("n2").style.color = "green";
+        document.getElementById("n3").style.color = "blue";
+
+        document.getElementById("n1").style.fontSize = "30px";
+        document.getElementById("n2").style.fontSize = "40px";
+        document.getElementById("n3").style.fontSize = "50px";
+
+</script>
+
+</body>
+</html>
