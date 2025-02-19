@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript switch</h1>
+
+<p id="demo"></p>
+
+<script>
+let day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "ponedjeljak";
+    break;
+  case 2:
+    day = "utorak";
+    break;
+  case 3:
+    day = "srijeda";
+    break;
+  case 4:
+    day = "četvrtak";
+    break;
+  case 5:
+    day = "petak";
+    break;
+  case  6:
+    day = "subota";
+    case  7:
+    day = "nedjelja";
+}
+document.getElementById("demo").innerHTML = "danas je " + day;
+</script>
+
+</body>
+</html>

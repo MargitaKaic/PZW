@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kviz</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<script src="skripta.js"></script>
+</head>
+<body>
+
+<h1>Dobrodošli na Kviz</h1>
+
+
+<form id="kviz" name="kviz">
+
+	<p>1. Koji HTML element koristimo ako želimo napraviti horizontalnu liniju?</p>
+	<input id="textbox" type="text" name="pitanje1">
+
+	<p>2. HTML je jezik za označavanje?</p>
+	<input type="radio" id="radio" name="pitanje2" value="true"> Točno<br>
+	<input type="radio" id="radio" name="pitanje2" value="false"> Netočno<br>
+
+	<p>3. Koji HTML element definira naslov dokumenta?</p>
+	<input type="radio" id="radio" name="pitanje3" value="a"> &lt;head&gt; &lt;/head&gt;<br>
+	<input type="radio" id="radio" name="pitanje3" value="b"> &lt;title&gt; &lt;/title&gt;<br>
+	<input type="radio" id="radio" name="pitanje3" value="c"> &lt;meta&gt;<br>
+	<input type="radio" id="radio" name="pitanje3" value="d"> &lt;body&gt; &lt;/body&gt;<br>
+	<br>
+
+	<p>4. Kako se deklarira varijabla koja se ne može mijenjati?</p>
+	<input id="textbox" type="text" name="pitanje4">
+
+
+	
+	<p>5. Koja je ključna riječ za definiranje funkcije?</p>
+	<input type="radio" id="radio" name="pitanje5" value="a"> &lt;def&gt; <br>
+	<input type="radio" id="radio" name="pitanje5" value="b"> &lt;function&gt; <br>
+	<input type="radio" id="radio" name="pitanje5" value="c"> &lt;fun&gt;<br>
+	<br>
+
+	<p>6. HTML atribut alt koristi se za pružanje alternativnog teksta za slike i obavezan je za sve img elemente.</p>
+	<input type="radio" id="radio" name="pitanje6" value="true"> Točno<br>
+	<input type="radio" id="radio" name="pitanje6" value="false"> Netočno<br>
+
+	<p>7. Što se koristi za umetanje komentara u HTML?
+		
+	<input type="radio" id="radio" name="pitanje7" value="a"> &lt;komentar&gt; <br>
+	<input type="radio" id="radio" name="pitanje7" value="b"> &lt;// komentar&gt;<br>
+	<input type="radio" id="radio" name="pitanje7" value="c"> &lt; Ni jedno od navedenih ;<br>
+	
+
+	<p>8. HTML je jezik za označavanje?</p>
+	<input type="radio" id="radio" name="pitanje8" value="true"> Točno<br>
+	<input type="radio" id="radio" name="pitanje8" value="false"> Netočno<br>
+
+	<p>9. Kako se deklarira varijabla koja se ne može mijenjati?</p>
+	<input id="textbox" type="text" name="pitanje9">
+
+	<p>10. Koji HTML element koristimo ako želimo napraviti horizontalnu liniju?</p>
+	<input id="textbox" type="text" name="pitanje10">
+
+	<br>
+
+
+
+	<input id="button" type="button" value="Završi kviz!" onclick="provjeri();">
+
+</form>
+
+<div id="after">
+	<p id="broj_tocnih"></p>
+	<p id="poruka"></p>
+	<img id="slika">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* CSS za kviz */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	margin: 16;
+	background-image: url('IMG_2629.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	margin: 3;
+	text-align: center;
+	color: aliceblue;
+	background-color: rgb(39, 38, 38);
+}
+
+#kviz {
+	margin: 0;
+	background: #cc70be;
+	padding: 10px 20px;
+	width: 400px;
+	border-radius: 7px;
+}
+
+input {
+	margin-bottom: 20px;
+}
+
+#textbox {
+	height: 40px;
+	font-size: medium;
+	padding-left: 5px;
+}
+
+
+#after {
+	visibility: hidden;
+	margin: 20px auto 0 auto;
+	background: #e27fdc;
+	padding: 20px 10px 10px 10px;
+	width: 420px;
+	border-radius: 5px;
+}
+
+#after p {
+	margin-top: 0;
+	font-size: 1.3em;
+}
+
+#button {
+	background: rgb(82, 16, 88);
+	border: none;
+	border-radius: 3px;
+	padding: 10px;
+	color:rgb(227, 240, 109) ;
+	font-size: 1em;
+	transition: all .5s;
+}
+
+#button:hover {
+	background: rgb(30, 1, 26);
+	cursor: pointer;
+}
+
+img {
+	width: 100%;
+}
+
